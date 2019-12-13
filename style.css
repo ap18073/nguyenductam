@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kabu Gothic Pro", "メイリオ", Meiryo, Osaka, "MS Pゴシック", "MS PGothic", "sans-serif";
+  font-size: 16px;
+  color: #333
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0:
+}
+p {
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  background: #efefef;
+}
+header{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+  display: block;
+}
+.title-area {
+  height: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: linear-gradient(#4169e1,#1e90ff);
+}
+nav{
+  max-width: 960px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(30,87,153); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(32,124,202,1) 3%, rgba(41,137,216,1) 45%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 3%,rgba(41,137,216,1) 45%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(32,124,202,1) 3%,rgba(41,137,216,1) 45%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+  }
+nav ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size:0 ;
+
+}
+nav ul li {
+  display: inline-block;
+  width: 33.3333333333%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+  padding: 15px 0;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #ffffff;
+}
+nav ul li a:hover{
+  font-size: 22px;
+  color: orange;
+  padding: 14px 0 15px 0 ;
+}
+nav ul li a.current{
+  color: orange;
+  }
+nav ul li:first-child a{
+  border-left: none;
+}
+
+.page-title {
+  font-size: 2.2em;
+  line-height: 40px;
+  margin: 0;
+  color: white;
+}
+#container {
+  max-width: 960px;
+  min-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fafafa;
+}
+
+#main {
+  width: 70%;
+  background: #fff;
+  margin: 0;
+  float: left;
+}
+
+#sub {
+  width: 30%;
+  float: left;
+  height: auto;
+}
+
+footer {
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 0;
+  background: #4169e1;
+  text-align: center;
+  color: #fff;
+}
+footer span.name {
+  font-weight: bold;
+}
+.title {
+  margin: 0 0 30px 0;
+  height: 40px;
+  line-height: 30px;
+  font-size: 26px;
+  padding: 5px 0 5px 10px;
+  border-left: 5px solid #4169e1;
+  border-bottom: 1px solid #4169e1;
+}
+.myimg1{
+  width: 572px;
+  margin: 20px 50px 20px 50px;
+}
+
+.myimg2{
+  width: 100%;
+  max-width: 572px;
+  height: auto;
+  margin: 20px 50px 20px 50px;
+}
+
+.title2{
+  height: 40px;
+  font-size: 26px;
+  padding: 5px 0px 5px 10px;
+  border-left: 5px solid #4169e1;
+  border-bottom: 1px solid #4169e1;
+  margin: 50px 50px 20px 50px;
+}
+
+.title3{
+  height: 40px;
+  font-size: 26px;
+  padding: 5px 0px 5px 10px;
+  border-left: 5px solid #4169e1;
+  margin: 50px 50px 20px 50px;
+}
+
+#h2{
+  margin: 20px 50px 20px 50px;
+  border-collapse: collapse;
+}
+
+  .item{
+    text-align: center;
+    background: #5fe141;
+    border: 1px solid #4169e1;
+    width: 270px;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+  }
+
+  .h2title{
+    background: #c12d14;
+    border: 1px solid #c12d14;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+      }
+
+.mainb{
+  margin: 30px 50px;
+}
+#h2 tr{
+  padding: 15px;
+}
+
+.item2{
+  padding-left: 15px;
+  border: 1px solid #4169e1;
+}
+.subh3 {
+font-weight: bold;
+padding: 10px;
+background: #446CE1;
+margin: 15px 0px 20px 0px;
+color: white;
+}
+
+.abj{
+  background-color: white;
+  margin: 20px;
+}
+
+#sub ul li a {
+margin-top: 5px;
+color: black;
+font-family: cursive;
+}
+
+#sub ul li a:hover {
+margin-top: 5px;
+color: #e2a80d;
+font-family: cursive;
+}
+
+.myinfbutton {
+font-size: 24px;
+margin: 15px auto 15px auto;
+width: 360px;
+line-height: 30px;
+display: block;
+border: 3px solid #446CE1;
+border-radius: 62px;
+text-align: center;
+background: #f3f5d1;
+padding: 25px 0 25px 0;
+font-weight: bold;
+}
+
+.myinfbutton:hover {
+font-size: 24px;
+margin: 15px auto 15px auto;
+width: 360px;
+line-height: 30px;
+display: block;
+border: 3px solid #e2a80d;
+border-radius: 62px;
+text-align: center;
+background: #7b7864;
+padding: 25px 0 25px 0;
+font-weight: bold;
+color: #e2a80d;
+}
+
+
+
+#kn {
+margin-top: 50px;
+    border-top: 1px solid #4169e1;
+  }
+
+  .title2 {
+  height: 40px;
+  font-size: 26px;
+  padding-top: 5px;
+  padding-left: 10px;
+  border-bottom: 1px solid #4169e1;
+  border-left: 5px solid #4169e1;
+}
+
+.mytxt {
+    margin: 30px 50px 20px 50px;
+    font-family: MV Boli;
+  }
+
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .myimg1 {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    width: 260px;
+    height: 191px;
+}
+
+p {
+    margin-bottom: 30px;
+  }
+  @media screen and (max-width: 480px) {
+      #main, #container{
+        width: 100%;
+      }
+#sub{
+  width: 100%;
+  margin: 10px 20px;
+}
+footer{
+        width: 100%;
+      }
+
+nav {
+    height: auto;
+    width: 100%;
+    display:block;
+    }
+  nav ul li{
+    width: 100%;
+  }
+  nav ul li a {
+    border-left: none;
+    width:100%;
+  }
+        .myimg1{
+          width: 100%;
+          float: none;
+          margin:0;
+        }
+        #h2{
+          height: auto;
+        }
+        .h2title,title{
+          width: 100%;
+        }
+        .item {
+          width: 100%;
+          }
+        .item2{
+          width: 100%;
+        }
+.myinfbutton{
+  width: auto;
